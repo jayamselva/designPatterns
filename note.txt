@@ -1,0 +1,2 @@
+In main method, instead of specifying specific OS, we are getting the OS name through factory object (OperatingSystemFactory).
+we are using factory object here which is manufacturing object. So it is called factory desing pattern.
