@@ -1,2 +1,3 @@
-In main method, instead of specifying specific OS, we are getting the OS name through factory object (OperatingSystemFactory).
-we are using factory object here which is manufacturing object. So it is called factory desing pattern.
+Builder Design Pattern:
+If you have construcotr like below, then you should give all constructor values, also we need to maintain the order constructor expects. This cane be avoided by this builder design pattern.
+Phone p=new Phone("Android", 4, "Intel Pendium 4", 145.67d, 12);
