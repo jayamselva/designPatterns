@@ -4,7 +4,10 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Testing");
+		
+		OperatingSystemFactory osf= new OperatingSystemFactory();
+		OS os= osf.getInstance("sdsd");
+		os.spec();
 	}
 
 }
