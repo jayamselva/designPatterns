@@ -1,2 +1,3 @@
-In main method, instead of specifying specific OS, we are getting the OS name through factory object (OperatingSystemFactory).
-we are using factory object here which is manufacturing object. So it is called factory desing pattern.
+The observer pattern is a software design pattern in which an object, called the subject, 
+maintains a list of its dependents, called observers, and notifies them automatically of any state changes, 
+usually by calling one of their methods.
