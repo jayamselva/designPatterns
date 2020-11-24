@@ -1,3 +1,7 @@
+In object-oriented programming, the command pattern is a behavioral design pattern in which an object is used to 
+encapsulate all information needed to perform an action or trigger an event at a later time. 
+This information includes the method name, the object that owns the method and values for the method parameters.
+
 Command pattern is a data driven design pattern and falls under behavioral pattern category. 
 A request is wrapped under an object as command and passed to invoker object. 
 Invoker object looks for the appropriate object which can handle this command and passes the command to the corresponding object which executes the command.
